@@ -6,7 +6,8 @@ from flask_moment import Moment
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import Required
-
+from flask.ext.mail import Mail
+from flask.ext.mail import Message
 
 
 app = Flask(__name__)
